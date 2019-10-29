@@ -9,23 +9,41 @@
 </head>
 <body>
   <div class="container">
-
+    <h2>Further Exploration Page</h2>
     <!-- Factorial Section -->
-    <form id='formFactorial'>
-      <h5>Enter a number to determine its factorial</h5>
-      <label for="inputFactorial">A number: </label>
-      <input type="number" id='inputFactorial'>
-      <button type="submit" name="button">Factorial!</button>
-    </form>
-    <h4 id = "outputFactorial"></h4>
+    <div class="row">
+      <div class="col-md-12">
 
-    <!-- Palindrome Section -->
-    <form id='formPalindrome'>
-      <h5>Enter a sentence to see if it is a palindrome</h5>
-      <label for="sentence">A sentence</label>
-      <input type="text" id='sentence'>
-      <button type="submit" name="button">Is this a palindrome?</button>
-    </form>
+        <form id='formFactorial'>
+          <h5>Enter a number to determine its factorial</h5>
+          <label for="inputFactorial">A number: </label>
+          <input type="number" id='inputFactorial'>
+          <button type="submit" name="button">Factorial!</button>
+        </form>
+        <h4 id = "outputFactorial"></h4>
+
+        <!-- Palindrome Section -->
+        <form id='formPalindrome'>
+          <h5>Enter a sentence to see if it is a palindrome</h5>
+          <label for="sentence">A sentence</label>
+          <input type="text" id='sentence'>
+          <button type="submit" name="button">Is this a palindrome?</button>
+        </form>
+      </div>
+    </div>
+
+    <!--Incomplete Prime Section-->
+    <div class="row">
+      <div class="col-md-12">
+
+        <form id='primeForm'>
+          <h5>Enter a number to find all primes up to that number</h5>
+          <label for="primeInput">A number: </label>
+          <input id='primeInput' type="number">
+          <button type="submit" name="button">Button!</button>
+        </form>
+      </div>
+    </div>
   </div>
 </body>
 </html>

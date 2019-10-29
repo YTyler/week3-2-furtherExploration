@@ -33,6 +33,21 @@ $(document).ready(function(){
       console.log('This is a palindrome');
     } else if (palindrome === false) {
       console.log('This is not a palindrome');
+      //error: Does not print to console
+    }
+  })
+
+  //Incomplete Prime Section
+  $('#primeForm').submit(function(event){
+    event.preventDefault();
+    var limit = parseInt($('#primeInput').val());
+    var takeMeToTheLimit = [];
+    for (i=2; i < limit;i++) {
+      takeMeToTheLimit.push(i);
+    }
+    var prime = 2;
+    for (i=prime;i < limit; i++){
+      if
     }
   })
 });
